@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  margin: 0;
+}
+body {
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagejump {
+  display: flex;
+  gap: 29px;
+}
+.pagejump a {
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100px;
+  line-height: 26px;
+  letter-spacing: -0.10000000149011612px;
+  color: black;
+}
+header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.44px;
+  letter-spacing: -0.13333334028720856px;
+}
+.slogan {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-size: 36px;
+  padding: 96px;
+}
+.gogreen {
+  color: #4caf4f;
+}
