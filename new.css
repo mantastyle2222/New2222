@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+  .example {
+    background: red;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
+  }
+  .text1 {
+    display: inline-block;
+  }
+  .text2 {
+    display: none;
+  }
+  .text3 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+  .text1 {
+    display: none;
+  }
+  .text2 {
+    display: inline-block;
+  }
+  .text3 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+  .text1 {
+    display: none;
+  }
+  .text2 {
+    display: none;
+  }
+  .text3 {
+    display: inline-block;
+  }
+}
+.example {
+  font-size: x-large;
+  padding: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

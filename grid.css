@@ -1,0 +1,24 @@
+.item {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid red;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+  gap: 20px;
+}
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.item-2 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.item-3 {
+  grid-row-start: 1;
+  grid-row-end: auto;
+}
